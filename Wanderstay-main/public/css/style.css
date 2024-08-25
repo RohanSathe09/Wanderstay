@@ -1,0 +1,176 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  height: 4.2rem;
+}
+
+.nav-link {
+  color: #222;
+  margin-left: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+}
+
+.navbar-nav{
+  background-color: rgb(249, 249, 249);
+}
+
+.nav-link:hover {
+  text-decoration:underline 2px #ff5a5f;
+}
+
+.nav-link:active {
+  box-shadow: none;
+}
+
+.btn-search {
+  background-color: #ff5a5f;
+  color: aliceblue;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 0px 3px 0.4px rgba(0, 0, 0, 0.66);
+  font-size: 0.9rem;
+}
+
+.btn-search:active {
+  box-shadow: none;
+}
+
+.btn-search i {
+  padding: 0 0.43rem 0 0.43rem;
+}
+.search-input {
+  border-radius: 2rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 0.9rem;
+}
+
+/* Button */
+.Btn {
+  background-color: #ff5a5f;
+  color: aliceblue;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  box-shadow: 0px 0px 3px 0.4px rgba(0, 0, 0, 0.753);
+}
+
+.Btn:active {
+  box-shadow: none;
+}
+
+.btns {
+  display: flex;
+  margin-left: 1rem;
+}
+
+/* Footer */
+.f-info-links a {
+  text-decoration: none;
+  color: #222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials {
+  width: 100%;
+}
+
+.f-info-socials i {
+  margin: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/* Card */
+.listing-card {
+  border: none;
+  margin: 0.6rem;
+}
+
+.card-img-top {
+  border-radius: 1rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0;
+  margin-left: 0.4rem;
+}
+
+.card-text {
+  font-weight: 400;
+  color: #222;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.209);
+}
+
+/*Show page */
+.show-img {
+  height: 40vh;
+}
+
+/* reviews */
+.reviews {
+  background-color: whitesmoke;
+}
+
+/* filters */
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter {
+  text-align: center;
+  opacity: 0.7;
+  margin:0 0.7rem;
+  display: inline-block;
+}
+
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.filter p {
+  font-size: small;
+}
